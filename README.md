@@ -1,0 +1,1 @@
+Aqui se encontra todos os Exercicios concluidos de todas as aulas e solicitados pela plataforma B7web.

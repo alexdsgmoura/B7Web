@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Velozes e Furiosos";
+    src: url(../fonts/IN901XKI.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #292d32;
+}
+
+header {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    /*background-color: #35393e;*/
+    align-items: center;
+    border-bottom: 8px solid #35393e;
+}
+
+header .icon-title {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+    background-image: url(../images/paul-walker1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid #2f3338;
+}
+
+header .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: red;*/
+    width: 100%;
+}
+
+header .title .title-header {
+    font-family: Velozes e Furiosos;
+    display: block;
+    font-size: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
+header .subtitle {
+    width: 55%;
+    height: 90%;
+    /*background-color: darkblue;*/
+}
+
+header div p {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+header div .desc-subtitle2 {
+    font-size: 16px;
+    font-family: monospace;
+}
+
+section {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border-bottom: 5px solid #35393e;*/
+}
+
+section .container {
+    width: 70%;
+    height: auto;
+    /*background-color: green;*/
+    display: flex;
+    justify-content: center;
+    /*background-color: gray;*/
+}
+
+section .container figure {
+    width: 350px;
+    height: auto;
+    margin: 0;
+    border: 1px solid #35393e;
+    border-bottom: 2px solid #35393e;
+    border-radius: 8px;
+}
+
+section .container figure img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid #35393e;
+}
+
+section .container figure figcaption {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-size: 16px;
+    /*text-decoration: underline;*/
+    padding: 5px;
+}
+
+section .columns-flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+section .container h1 {
+    width: 80%;
+    padding: 10px;
+    margin-block: 0;
+    font-family: "Velozes e Furiosos";
+    color: #ddd;
+    border: 1px solid #35393e;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section .container article {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #35393e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /*background-color: darkgray;*/
+}
+
+section .container article p {
+    margin: 10px;
+    padding: 10px;
+    font-family: Courier;
+    font-size: large;
+    color: white;
+}
+
+section .container .article-tables {
+    display: flex;
+    /*background-color: green;*/
+    justify-content: center;
+}
+
+section .container .article-tables table {
+    width: 100%;
+    height: auto;
+}
+
+section .container .article-tables table thead tr th,
+section .container .article-tables table tbody tr td {
+    border: 1px solid #2f3338;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+section .container .article-tables table thead tr th {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: #35393e;
+}
+
+section .container .article-tables table tbody tr td {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #35393e;
+}
+
+footer .credits {
+    margin: 5px;
+    padding: 5px;
+}
+
+footer .credits a,
+footer .credits p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .credits p {
+    margin: 0;
+    padding: 0;
+}
+
+footer .credits a:hover {
+    color: #3ea4f2;
+}

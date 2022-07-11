@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #292d32;
+}
+
+body section {
+    width: 100vw;
+    height: 100vh;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body section .container {
+    width: 80%;
+    height: auto;
+    /*background-color: red;*/
+    border: 1px solid #3ea4f2;
+    border-radius: 5px;
+}
+
+body section .container .container-title {
+    width: 100%;
+    height: 60px;
+    /*background-color: green;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+body section .container .container-title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body section .container .container-body {
+    width: 100%;
+    height: auto;
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+body section .container .container-body .container-form-left,
+body section .container .container-body .container-form-right {
+    /*background-color: #3ea4f2;*/
+    flex: 1;
+    border-top: 1px solid #3ea4f2;
+}
+
+body section .container .container-body .container-form-right {
+    border-left: 1px solid #3ea4f2;
+}
+
+body section .container .container-body .container-form-left form,
+body section .container .container-body .container-form-right form {
+    display: flex;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+
+body section .container .container-body .container-form-left form .title,
+body section .container .container-body .container-form-right form .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body section .container .container-body .container-form-left form .title h1,
+body section .container .container-body .container-form-right form .title h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body section .container .container-body .container-form-left form .form-left-body,
+body section .container .container-body .container-form-right form .form-left-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: red;*/
+}
+
+body section .container .container-body .container-form-left form .form-left-body label,
+body section .container .container-body .container-form-right form .form-right-body label {
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    /*background-color: bisque;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body section .container .container-body .container-form-left form .form-left-body label i,
+body section .container .container-body .container-form-right form .form-right-body label i {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #3ea4f2;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body section .container .container-body .container-form-left form .form-left-body label input,
+body section .container .container-body .container-form-left form .form-left-body label select,
+body section .container .container-body .container-form-right form .form-right-body label input,
+body section .container .container-body .container-form-right form .form-right-body label select {
+    border: 1px solid #3ea4f2;
+    border-left: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    outline: none;
+    width: 60%;
+    background-color: #35393e;
+    padding-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#botoesdoformulario,
+#botoesdologin {
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+#botoesdoformulario button,
+#botoesdologin button {
+    display: flex;
+    background-color: #292d32;
+    color: white;
+    height: 35px;
+    border: 1px solid #3ea4f2;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#botoesdoformulario button i,
+#botoesdologin button i {
+    width: 35px;
+    height: 30px;
+    border: 0;
+    border-right: 1px solid #3ea4f2;
+    margin-right: 4px;
+}
+
+#botoesdologin {
+    margin: auto;
+}
