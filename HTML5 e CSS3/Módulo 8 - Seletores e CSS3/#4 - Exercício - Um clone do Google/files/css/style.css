@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+i {
+    color: white;
+}
+
+body {
+    background-color: #202124;
+    margin: 0;
+}
+
+body header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: inherit;
+}
+
+body header .top {
+    width: 100%;
+    height: 60px;
+    background-color: inherit;
+    padding: 6px;
+    display: flex;
+    justify-content: end;
+}
+
+body header .top .content-top1 {
+    height: auto;
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+}
+
+body header .top .content-top1 a {
+    padding: 0px 0px 0px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body header .top .content-top1 a img {
+    width: 24px;
+    height: 24px;
+}
+
+body header .top .content-top1 a div {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: calc(32px - 50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body section {
+    width: 100%;
+    height: calc(100vh - 156px);
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body section .google-logo,
+body section .google-search,
+body section .google-buttons {
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+body section .google-logo h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 75pt;
+}
+
+body section .google-search {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+body section .google-search .search-base {
+    width: 582px;
+    height: 50px;
+    background-color: inherit;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid #606165;
+}
+
+body section .google-search .search-base .details-icons {
+    display: flex;
+}
+
+body section .google-search .search-base .input-search {
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+body section .google-search .search-base .input-search input {
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: 0;
+    background-color: inherit;
+    color: white;
+}
+
+body section .google-search .search-base .search-icon,
+body section .google-search .search-base .details-icons i {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body section .google-buttons {
+    display: flex;
+    align-items: center;
+}
+
+body section .google-buttons button {
+    background-color: #303134;
+    box-shadow: 2px 2px black;
+    width: 136px;
+    height: 36px;
+    font-family: Arial;
+    color: white;
+    font-weight: 100;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+body footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    background-color: #171717;
+}
+
+body footer .footer1 {
+    border-bottom: 1px solid #3c4043;
+    padding: 15px 30px;
+}
+
+body footer .footer1 span,
+body footer .footer2 div span {
+    font-size: 15px;
+    color: #9aa0a6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body footer .footer2 div span {
+    padding: 15px;
+}
+
+body footer .footer2 {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: inherit;
+}
+
+@media (max-width: 900px) {
+    body footer .footer2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    body footer .footer2 div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    body footer .footer2 div span {
+        height: auto;
+    }
+}
